@@ -28,6 +28,7 @@ Artificial Intelligence (AI)
       ├── Plans tasks
       ├── Uses tools
       └── Completes goals
+
 Generative AI mainly focuses on creating new content like text, images, code, or videos based on a user's prompt. An AI Agent is designed to complete a goal. It can plan multiple steps, use external tools, remember previous information, and make decisions before giving the final result. Many AI Agents use Generative AI models as one part of their system.
 ## E - Evidence
 
