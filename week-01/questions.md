@@ -6,16 +6,14 @@
 
 ## A - Answer
 
-Artificial Intelligence is a human made system which will perform that can be done by human by learning from the data and examples it is generally used for complex problem solving,image recognization and assisting.These above task requied Data analysis,image processing and prediction.It performs tasks using different algorithms.
-Exampls is google maps route selection.
-Machine Learning is a subset of Artificial Intelligence. Machine Learning system learns patterns from data. After training on many examples, it can make predictions or classifications for new data that it has not seen before.
-Example is Gmail identifying spam emails by learning from previous examples instead of using only fixed rules.
-Deep Learning is a subset of Machine Learning that uses artificial neural networks with many layers to learn complex patterns from large amounts of data. It is especially useful for tasks involving images, speech, videos, and natural language.
-Example is Face Unlock on a smartphone recognizing a user's face.
-Generative AI is a type of AI that creates new content instead of only analyzing existing data. It can generate text, images, code, music, videos, and other forms of content by learning patterns from training data.
-Example is ChatGPT writing an email or answering a question.
-An AI Agent is a system that uses an AI model together with planning, memory, and external tools to accomplish a goal. Unlike a simple chatbot that only generates responses, an AI Agent can break a task into steps, use tools, collect information, and decide what to do next before producing the final result.
-Example is A travel assistant that searches for flights, compares prices, books tickets, and sends a confirmation email automatically.
+Artificial Intelligence is a human made system which will perform that can be done by human by learning from the data and examples it is generally used for complex problem solving,image recognization and assisting . These above task requied Data analysis,image processing and prediction . It performs task using different algorithms. 
+For example, Google Maps route option. Machine Learning refers to a subset of Artificial Intelligence . 
+Machine learning systems learn from patterns in data. It is trained on lots of samples and can then generalize to make predictions or classifications on new data it has not seen before. 
+For instance, Gmail detects spam by learning from past samples, not just by employing predefined rules. 
+Deep Learning is a subfield of Machine Learning that uses artificial neural networks with several layers to learn complicated patterns from massive quantities of data . It is especially effective for assignments incorporating photos, sounds, videos and natural language. An example is Face Unlock on a smartphone that recognizes a user’s face. Generative AI is a form of AI that creates new content, rather than analyzing current data. It can learn patterns from training data to generate text, images, code, audio, movies and other kinds of content. Example is ChatGPT writing an email or answering a question. 
+An AI Agent is a system that combines an AI model with planning, memory, and external tools to achieve a purpose. An AI Agent is not just a simple chatbot that generates responses. It may break down a process into steps, use tools, gather information, and decide what to do next before delivering the final output. 
+A travel assistant that looks for flights, compares costs, bookings tickets and automatically sends a confirmation email. 
+
 Artificial Intelligence (AI)
 │
 ├── Machine Learning (ML)
@@ -38,20 +36,17 @@ Source 2:IBM – What is Artificial Intelligence?
 
 ## V - Verification
 
-I compared the definitions from Google's Machine Learning Crash Course and IBM's AI documentation. Both explained that AI is a field that includes systems capable of performing tasks requiring human intelligence.
+The definitions came from Google’s Machine Learning Crash Course and IBM’s AI material that I used. They both said AI is a branch of study concerned with systems that can do things that need human intelligence
 
 ## R - Reflection
 
-Before studying this topic, I thought AI mainly referred to chatbots like ChatGPT. After learning this concept, I understood that AI is a much broader field that includes applications such as recommendation systems, navigation, speech recognition, and language models.
+I believed this was mostly chatbots like ChatGPT before I researched this topic. I came to know this concept and it struck me that AI is a far larger field with applications like recommendation systems, navigation, speech recognition and language 
 
 # Q2 - Is Everything That Looks Intelligent Actually AI?
 
 ## A - Answer
 
-Not every software that performs a task is Artificial Intelligence. Some programs only follow fixed rules written by a programmer, where AI systems can learn patterns from data or generate new content. Traditional software always follows predefined instructions, But AI systems can improve their performance by learning from data or producing new outputs based on what they have learned.
-What makes an AI system different from traditional software?
-Traditional software works by following rules that are written by a programmer. If the rules never change, the output also never changes for the same input.
-AI systems are different because they can learn patterns from data. Instead of depending only on manually written rules, they use the knowledge learned during training to make predictions, classify information, recognize patterns, or generate new content. This makes AI more flexible for solving complex problems where it is difficult to write rules for every possible situation.
+Not all software that does something is Artificial Intelligence. Artificial intelligence systems are able to learn patterns from data or develop new material . Some programs just obey fixed rules written by a programr . Traditional software is built on pre-defined instructions, but artificial intelligence systems learn from data to enhance their performance or generate new outputs based on what they have learnt. What’s the difference between an AI system and regular software? Traditional software is rule-based – that is, rules written by a programmer. If the rules don’t change, the output never changes for the same input. Artificial intelligence systems are unique in that they can learn from data. Instead of only manually set rules, they leverage the knowledge obtained during training to make predictions, classify information, recognize patterns, or generate new content. This makes AI more adaptable to deal with complicated issues where it is hard to set rules for every case.
 
 ## E - Evidence
 
@@ -64,16 +59,14 @@ I compared the explanations from Google's Machine Learning Crash Course and IBM'
 
 ## R - Reflection
  
-I thought every smart software application was considered AI. After studying this concept, I understood that many programs simply follow fixed rules written by programmers and are not AI.
+I thought all clever software apps were known as AI. I studied this topic and realized that many programs are just following predetermined rules written by programmers and are not AI.
 
 
 # Q3 - What Happens When You Ask an LLM a Question?
 
 ## A - Answer
 
-When a user asks a question to a Large Language Model (LLM), the question given by the user is called a prompt. The model first converts the prompt into small pieces called tokens. A token can be a word. After converting the prompt into tokens, the model looks at the context, which means the current prompt and the previous conversation. Using this context, the model processes all the tokens and calculates the probability of which token is most likely to come next. It keeps predicting one token after another until it forms a complete answer. This process is called next-token prediction, and the final answer shown to the user is called the generated response.
-The difference between training and inference. During training, the model learns patterns from a very large amount of text, images. This happens only once while building the model. During inference, which is when we ask questions to the model, it does not learn anything new. It simply uses the knowledge it learned during training to generate a response. This is why the model can answer many different questions without searching the internet every time.
-Although an LLM can generate fluent and natural human-like answers, it can still make mistakes. This is because it predicts the next token based on probability and patterns learned during training instead of actually understanding the information like a human. Sometimes it may generate incorrect or unsupported information that sounds convincing. 
+A prompt is the query the user gives to a Large Language Model (LLM). First, the model divides the command into little chunks or blocks called tokens. A word can be a token. The model takes the prompt, converts it into tokens, and then looks at the context, which is the present prompt plus the past conversation. From there the model looks at all the tokens and works out the likelihood of what token is most likely to appear next. It generates a comprehensive answer by making a prediction for one token at a time. This process is termed next-token prediction, and the final answer presented to the user is called the generated response. The distinction between training and inferring. While training the model learns patterns from a very big volume of text images. This occurs only once during model creation. When we do inference, which is when we ask questions to the model, it doesn’t learn anything new. It just applies what it learnt throughout training to make a response. So the model can answer lots of different queries without having to search the internet every time. An LLM can generate replies that are fluent and natural, like those of a person. This is because it is predicting the next token based on chance and patterns it acquired during training and not truly interpreting the material like a human would . It can sometimes produce plausible seeming but incorrect or unsubstantiated information. 
 
 ## E - Evidence
 
@@ -86,7 +79,7 @@ I compared the explanation from OpenAI documentation and Google's Machine Learni
 
 ## R - Reflection
 
-Before learning this topic, I thought an AI model searched the internet every time I asked a question. After learning how an LLM works, I understood that it generates answers by predicting one token at a time using the knowledge learned during training.
+Before studying this issue, I imagined that each time I asked a question, an AI model searched the internet. And then I learnt how an LLM works, and I realized that it creates answers by predicting one token at a time based on knowledge it received in training.
 
 
 # Q4 - Hallucination Experiment
@@ -118,9 +111,7 @@ Before doing this experiment, I thought that if two AI models gave the same answ
 
 ## A - Answer
 
-For this activity I selected the question What is Machine Learning and checked the answer using three different methods ChatGPT, Google Search, and Google's Machine Learning Crash Course.
-ChatGPT explained that Machine Learning is a branch of Artificial Intelligence where computers learn patterns from data instead of following only fixed rules written by programmers. The explanation was simple, easy to understand, and included examples. When I searched the same question on Google, I found many websites explaining the concept. Some websites were simple for beginners like IBM, while others were more detailed and technical. This showed me that search engines provide many sources, so I need to decide which source is reliable.
-Finally, I checked Google's Machine Learning Crash Course, which is an official educational resource. It explained Machine Learning in a structured way and provided accurate information with examples. After comparing all three methods, I understood that an AI assistant is useful for learning and getting quick explanations, a search engine helps find different sources and viewpoints, and an official source is the best choice when I need accurate and accurate information. For important technical or engineering decisions, I would always verify the information using an official or authoritative source before accepting it since they have to document properly.
+For this task I chose the topic What is Machine Learning and verified the answer using 3 different ways ChatGPT, Google Search and Google's Machine Learning Crash Course. ChatGPT revealed to me that Machine Learning refers to a field of Artificial Intelligence where computers may learn from data patterns instead of just obeying fixed rules written by humans. There was a clear and understandable explanation with illustrations. When I googled the same question, I got various webpages describing the notion. Some sites were easy for beginners like IBM while some were more complex and technical. This showed me that search engines have various sources, so I need to find out which source is reliable. Finally I looked at Google’s Machine Learning Crash Course, an official learning resource. It described Machine Learning in an organized manner with precise facts and examples. After comparing all three approaches, I realized that AI assistant is great for learning and obtaining short explanations, search engine is useful for finding other sources and opinions and official source is the best option when I require accurate and correct information. For major technical or engineering decisions, I would always check the information from an official or authoritative source before adopting it because they have to record properly.
 
 ## E - Evidence
 
@@ -141,8 +132,7 @@ Before doing this activity, I thought Google Search and AI assistants worked in 
 
 ## A - Answer
 
-A Large Language Model is an AI model that understands and generates human language. It is trained on a very large amount of data so that it can answer questions, explain concepts, write content, and help us in different tasks. An LLM application is a software application that uses an LLM to interact with users. For example, ChatGPT is an application that uses a Large Language Model to answer questions and generate text. A RAG system improves an LLM by retrieving information from external documents or databases before generating the answer. This helps the model provide more relevant and up-to-date information instead of relying only on what it learned during training.
-A tool-using assistant is an AI assistant that can use external tools such as web search, calendars, databases, or email services to complete a task. An AI Agent goes one step further. It not only uses tools but also plans the steps needed to complete a goal, makes decisions, remembers previous information when required, and performs actions until the task is finished. Not like a simple chatbot that only responds to questions, an AI Agent can complete an entire workflow. For example, if a user asks an AI Agent to book a flight, it can search for flights, compare prices, select the best option, complete the booking, and send a confirmation email.
+A Large Language Model is an AI model that can comprehend and generate human language. It is trained on a huge quantity of data to answer questions, explain concepts, produce articles and aid us in different jobs. An LLM application is a software application that utilizes an LLM to connect with consumers. One such example is ChatGPT , an application that employs a Large Language Model to generate text and answer questions . A RAG system improves an LLM by gathering information from external documents or databases before producing the answer. This enables the model to deliver more relevant and up-to-date information than the model learnt during training. A tool-using assistant is an AI helper that can execute a task by accessing external tools like web search, calendars, databases, or email services. An AI Agent takes it one step farther. It uses tools, plans the steps needed to reach a goal, makes judgments, remembers knowledge from the past when necessary and takes activities till the work is completed. An AI Agent can perform a full workflow, not only answer queries like a basic chatbot. For example, if a user asks an AI Agent to book a flight, it can search for flights, evaluate costs, choose the best option, complete the transaction and send a confirmation email.
 
 User Request
       ↓
@@ -178,8 +168,7 @@ Before learning this topic, I thought ChatGPT and AI Agents were the same. After
 
 ## A - Answer
 
-Artificial Intelligence can help people by answering questions, summarizing documents, suggesting solutions, and analyzing large amounts of data. However, AI should not make every decision on its own because it can sometimes generate incorrect, incomplete, outdated information. For important tasks that affect people, money, health, or safety, a human should always review the AI's output before taking any action. Human judgment is important because people can understand the situation, verify facts, and take responsibility for the final decision.
-Some situations where a human should make the final decision include medical diagnosis, legal advice, financial decisions, job recruitment, and engineering or construction projects. In these situations, trusting AI without verification could lead to serious mistakes. Before accepting AI's suggestion, it is important to check reliable evidence such as official documents, trusted websites, company policies, medical reports, or expert opinions. After verifying the information, the final approval should always be given by a qualified person such as a doctor, lawyer, engineer, manager, or the responsible decision-maker.
+Artificial Intelligence can allow individuals to answer queries, summarize papers, propose solutions and analyze big quantity of data. However, not all decisions should be made by AI because it can sometimes produce incorrect, incomplete or outdated information. For crucial jobs that involve people, money, health, or safety, the output from the AI should always be reviewed by a person before acting on it. People can grasp the situation, check the facts and take responsibility for the ultimate decision hence human judgment is crucial. There are some cases when the final choice should be made by a human, for example, medical diagnosis, legal counsel, financial decisions, employment recruitment, and engineering or construction projects. Blind faith in artificial intelligence can lead to significant blunders in such cases. It is a good practice to verify the advice of AI from reliable sources such as official papers, trusted websites, company policies, medical reports, or expert opinions before following them. Once the information has been verified the final permission should come from a qualified person, a doctor, lawyer, engineer, management or the accountable decision maker.
 
 ## E - Evidence
 
@@ -200,9 +189,7 @@ Before learning this topic, I thought AI could make most decisions accurately if
 
 ## A - Answer
 
-Artificial Intelligence is used in many applications. Some applications use Machine Learning or Deep Learning to learn patterns from data, while others simply follow fixed rules written by programmers.I observed a few applications that I use regularly and identified the type of task they perform.
-Google Maps uses AI and Machine Learning to predict the best route and estimate the travel time by analyzing traffic and historical data. Gmail uses Machine Learning to classify emails as spam or not spam based on patterns learned from previous emails. ChatGPT uses Generative AI to generate text, answer questions, and help users with different tasks. Face Unlock on a smartphone uses Deep Learning to recognize a user's face and unlock the device. Netflix uses AI to recommend movies and TV shows based on a user's watching history and preferences. These examples show that AI can perform different tasks such as prediction, classification, generation, recognition, and recommendation depending on the application.
-For one example, I looked at Gmail's spam filter. A simple rule-based system could block emails that contain specific words like free money or click here
+Artificial Intelligence is applied in many applications Some apps employ Machine Learning or Deep Learning to learn patterns from data, while others just follow fixed rules programd by humans. I looked at some apps that I use often and figured out what kind of task they are doing. Google Maps employs Artificial Intelligence and Machine Learning to analyze traffic and historical data to forecast the optimal route and estimate journey time. Gmail employs Machine Learning to study patterns in old emails to sort them as spam or non spam. ChatGPT employs Generative AI to generate text, answer questions, and assist users with a range of tasks. A smartphone’s Face Unlock leverages Deep Learning to identify a user’s face and unlock the phone. Netflix employs artificial intelligence to suggest movies and TV series based on the user’s viewing history and likes. The examples above illustrate how standard artificial intelligence may perform a variety of tasks such as prediction, classification, generation, recognition and recommendation depending on the application. For example, I looked at Gmail's spam filter. A rule based system could reject emails that contain certain terms such as free money or click here
 
 ## E - Evidence
 
@@ -223,8 +210,7 @@ Before doing this activity, I thought AI was mainly used in chatbots like ChatGP
 
 ## A - Answer
 
-Artificial Intelligence can perform different types of tasks depending on the problem it is solving. Three of the most common tasks are Prediction, Classification, and Generation. Prediction means estimating a future value or outcome based on existing data. Classification means identifying or assigning data to a particular category. Generation means creating new content such as text, images, code, or videos based on the patterns learned during training. Although some AI applications can perform more than one task, they usually have one primary purpose.
-ChatGPT work using next-token prediction. Instead of writing the entire answer at once, the model predicts one token at a time based on the previous tokens and the context of the conversation. By repeating this process very quickly, it generates complete sentences, paragraphs, code, or summaries. This is why the same language model can perform different tasks like writing emails, answering questions, summarizing documents, or generating code. 
+Artificial Intelligence can do various jobs based on the challenge it is addressing. The three most popular tasks are Classification, Generation and Prediction . Prediction is the process of estimating a future value or event based on available data. Classification is the process of identifying or labeling data to a specific category. Generation is the ability to produce new content (text, graphics, code, video, etc.) depending on the patterns it learnt during training. Some AI programs work on more than one task, but always focus on a primary aim. ChatGPT work with next-token prediction. Instead of outputting the full answer at once, the model predicts the next token one at a time depending on the previous tokens and the conversational context . Repeating this technique very rapidly it generates whole sentences, paragraphs or code or summaries. That is why the same language model may perform many activities such as sending emails, answering queries, summarizing papers or generating code.
 
 ## E - Evidence
 
